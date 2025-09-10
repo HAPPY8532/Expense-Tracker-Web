@@ -14,7 +14,7 @@ function Signup() {
     occupation: "",
     monthlyIncome: "",
     currency: "INR",
-    avatar: null, // added
+    avatar: null, 
   });
 
   const [error, setError] = useState("");
@@ -39,7 +39,7 @@ function Signup() {
       form.occupation,
       form.monthlyIncome,
       form.currency,
-      form.avatar // pass avatar too
+      form.avatar 
     );
 
     if (res.error) setError(res.error);

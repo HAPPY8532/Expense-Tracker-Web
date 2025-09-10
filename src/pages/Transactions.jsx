@@ -1,4 +1,3 @@
-// src/pages/Transactions.jsx
 import { useState } from "react";
 import { useCurrency } from "../components/CurrencyContext";
 import { useAuth } from "../components/AuthContext";

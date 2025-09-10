@@ -1,4 +1,3 @@
-// src/pages/Settings.jsx
 import { useState, useEffect } from "react";
 import { useAuth } from "../components/AuthContext";
 

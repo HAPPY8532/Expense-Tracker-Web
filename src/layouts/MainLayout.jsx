@@ -6,7 +6,7 @@ function MainLayout() {
   const location = useLocation();
 
   return (
-    <div className="flex h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
+    <div className="flex flex-col sm:flex-row h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
       {/* Sidebar */}
       <Sidebar />
 

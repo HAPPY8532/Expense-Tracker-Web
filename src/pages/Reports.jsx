@@ -1,4 +1,3 @@
-// src/pages/Reports.jsx
 import {
   PieChart,
   Pie,

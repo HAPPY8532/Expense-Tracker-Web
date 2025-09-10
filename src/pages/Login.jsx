@@ -1,4 +1,3 @@
-// src/pages/Login.jsx
 import { useState } from "react";
 
 import { useAuth } from "../components/AuthContext";

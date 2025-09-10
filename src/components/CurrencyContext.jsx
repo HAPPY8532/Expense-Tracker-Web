@@ -1,10 +1,9 @@
-// src/context/CurrencyContext.js
 import { createContext, useState, useContext } from "react";
 
 const CurrencyContext = createContext();
 
 export const CurrencyProvider = ({ children }) => {
-  const [currency, setCurrency] = useState("INR"); // default
+  const [currency, setCurrency] = useState("INR"); 
 
   const currencySymbols = {
     INR: "₹",

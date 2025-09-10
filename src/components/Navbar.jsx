@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import { GiCrystalGrowth } from "react-icons/gi";
 import { useAuth } from "./AuthContext";
 
@@ -6,7 +5,7 @@ function Navbar() {
   const { user } = useAuth();
 
   return (
-    <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-md px-6 py-3 flex justify-between items-center transition-colors duration-500">
+    <div className="hidden sm:flex bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-md px-6 py-3 justify-between items-center transition-colors duration-500">
       
       {/* Left - Logo & Name */}
       <div className="flex items-center gap-3">
@@ -41,3 +40,4 @@ function Navbar() {
 }
 
 export default Navbar;
+ 

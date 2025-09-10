@@ -1,4 +1,3 @@
-// src/components/TransactionsContext.jsx
 import { createContext, useContext, useEffect, useState } from "react";
 
 const TransactionsContext = createContext();
